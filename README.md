@@ -1,10 +1,10 @@
 # Ultra Dual-Path Compression and Decompression
 
-This is the repository for a Pytorch-based implementation of the compression and decompression module in "Ultra Dual-Path Compression For Joint Echo Cancellation And Noise Suppression". The ultra dual-path compression module can compress the input multi-track spectra with large numbers of frames and frequency (T-F) bins into feature maps with small numbers of T-F bins, facilitating the fast processing for dual-path models (e.g., fullsubnet, 2D-convolution network). The decompression module transforms the compressed feature map back to the shapes of spectra for further processing. Details can be found in `ultra_dual_path_compression.ipynb`.
+This is the repository for a Pytorch-based implementation of the compression and decompression module in "Ultra Dual-Path Compression For Joint Echo Cancellation And Noise Suppression". The ultra dual-path compression module can compress the input multi-track spectra with large numbers of frames and frequency (T-F) bins into feature maps with small numbers of T-F bins, facilitating the fast processing for dual-path models (e.g., fullsubnet, 2D-convolution network). The decompression module transforms the compressed feature map back to the shapes of spectra for further processing. Details are recommended to be found in `ultra_dual_path_compression.ipynb`, while `ultra_dual_path_compression.py` contains some legacy code.
 
 Demos can be found in [DemoPage](https://hangtingchen.github.io/ultra_dual_path_compression.github.io/).
 
-Please refer to our paper with latest version on [Arxiv](https://arxiv.org/abs/2308.11053) for details. This paper is also accepted by [INTERSPEECH2023](https://www.isca-speech.org/archive/interspeech_2023/chen23t_interspeech.html).
+Please refer to our paper with the latest version on [Arxiv](https://arxiv.org/abs/2308.11053) for details. This paper is also accepted by [INTERSPEECH2023](https://www.isca-speech.org/archive/interspeech_2023/chen23t_interspeech.html).
 
 Please cite the paper if you found this module useful.
 ```
